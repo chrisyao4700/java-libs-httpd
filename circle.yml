@@ -8,7 +8,7 @@ checkout:
     - git submodule sync
     - git submodule update --init
 dependencies:
-  override:
+override:
     - ant resolve -Divy.useCacheOnly=false
   cache_directories:
     - ~/.ivycache-usrz
